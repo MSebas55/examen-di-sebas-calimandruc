@@ -59,7 +59,7 @@
         android:textAlignment="center"
         android:textSize="50dp"
         android:fontFamily="@font/redburguer"
-        android:textColor="@color/black"
+        android:textColor="@color/md_theme_light_onPrimaryContainer"
         ></TextView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
