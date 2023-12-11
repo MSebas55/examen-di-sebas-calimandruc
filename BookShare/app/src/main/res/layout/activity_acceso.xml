@@ -34,7 +34,7 @@
             android:layout_marginTop="30dp"
             android:fontFamily="@font/redburguer"
             android:textSize="40sp"
-            android:textColor="@color/black"
+            android:textColor="@color/md_theme_light_onPrimaryContainer"
             />
 
         <com.google.android.material.textfield.TextInputLayout
@@ -100,6 +100,9 @@
             android:layout_marginTop="10dp"
             android:text="Iniciar Sesión"
             android:onClick="openPrincipal"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:backgroundTint="@color/md_theme_light_primaryContainer"
+            android:textSize="16dp"
             />
 
         <Button
@@ -109,8 +112,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:onClick="openRegister"
-            android:text="Registrarse"
-            android:textColor="@color/black"
+            android:text="Registro"
+            android:textSize="16dp"
             app:layout_constraintEnd_toEndOf="@id/loginGLV2"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@id/loginGLV1"
